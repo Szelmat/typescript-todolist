@@ -1,0 +1,50 @@
+h1,
+h2,
+h3 {
+  font-family: Lato;
+  padding: 0;
+  margin: 10px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.todo {
+  display: flex;
+  border: 0.5px solid black;
+  margin: 10px;
+  flex-basis: 60%;
+  align-self: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 4px grey;
+}
+
+button {
+  border-radius: 10px;
+  background-color: orange;
+  border: 1px solid orange;
+  color: white;
+  cursor: pointer;
+  min-width: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: red;
+  border: 1px solid red;
+}
